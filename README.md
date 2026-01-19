@@ -4,7 +4,7 @@ These instructions should work for Discord bot projects that I've recently
 created.
 
 
-## Create a bot
+## Create bot
 
 If you don't have a Discord bot, you need to create one. You only need to do
 this once.
@@ -32,7 +32,7 @@ If you don't see a folder called **venv** inside of the project folder, then
 you also need to run the three commands below.
 
 
-### Create a virtual environment
+### Create virtual environment
 
 Windows:
 ```
@@ -47,7 +47,7 @@ python3 -m venv venv
 (**venv** folder should appear)
 
 
-### Activate the virtual environment
+### Activate virtual environment
 
 Windows:
 
@@ -74,7 +74,7 @@ python3 -m pip install discord.py
 ```
 
 
-## Run the bot code
+## Run bot code
 
 You need to first activate the virtual environment unless you already did that
 and haven't closed the terminal yet. It doesn't hurt to enter the command again
@@ -95,10 +95,10 @@ python3 -m bot.py
 
 ### Sync bot commands
 
-You might need to do this instead if it's your first time running the bot, or
-if the last bot you ran was a different bot. Use this command instead of the
-normal run command if there's no error message, but the bot's commands don't
-show up on Discord.
+You might need to do this if it's your first time running the bot, or if the
+last bot you ran was a different bot. Use this command instead of the normal run
+command if there's no error message, but the bot's commands don't show up on
+Discord.
 
 Windows:
 ```
@@ -110,11 +110,11 @@ macOS:
 python3 bot.py --sync
 ```
 
-If this still doesn't fix the msising commands, then try restarting your own
+If this still doesn't fix the missing commands, then try restarting your own
 Discord.
 
 
-### Quit the bot
+### Quit bot
 
 You should use the bot's **/quit** command if possible.
 
